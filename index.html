@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonia Akter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Sonia Akter</h1>
+        <button class="menu-button" id="menuToggle">&#9776;</button>
+        <nav id="mobileMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li ><a href="gallery.html" target="_blank">Gallery</a></li> 
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggle">Toggle</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero_img">
+            <img src="hero_image.webp" alt="Hero Image">
+        </div>
+        <div class="hero_text">
+            <h1>Hi I am a developer</h1>
+            <p>I am a developer aorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div id="overlay" class="overlay hidden">
+            <div class="developer">
+                <h2>I am a developer</h2>
+                    <p>I am a developer aorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sorem Ipsum is simply dummy text of the printing and typesetting industry.ever since the 1500s, when an unknown printer took a gal</p>
+                <button id="closeButton">Close</button>
+        
+            </div>
+        </div>
+        
+        <div class ="about_text">
+            <h3>About</h3>
+           
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sorem Ipsum is simply dummy text of the printing and typesetting industry.ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap </p>
+
+            <button id="seeMoreButton">See More</button>
+        </div>
+        <div class="about_img">
+            <img src="image_1.png" alt="">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id ="projects" class="projects">
+        <div class="project_title">
+            <h3>Projects</h3>
+                <div class="projects_list">
+                
+                    <div class="project_card"><img src="ATM_simulation.png"></div>
+    
+                    <div class="project_card"><img src="Little_Zoo.png"></div>
+                    <div class="project_card"><img src="Pancake_Maker.png"></div>
+                  
+                </div>
+        </div>
+        
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <div id="skills" class="skills">
+            <h3 class="skill_title">Skills</h3>
+                <div class="skills_text">
+       
+                    <p>I am a developer aorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sorem Ipsum is simply dummy text of the printing and typesetting industry.ever since the 1500s, when an unknown printer tookI am a developer aorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sorem Ipsum is simply dummy text of the printing and typesetting industry.ever since the 1500s,
+                   </p>
+
+                </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id = "contact_me" class="contact_me">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" required ><br>
+            <label for="email">Your Email</label>
+            <input type="email" name="email" required><br>
+            <label for="massege">Message to me</label>
+            <textarea name="message" required></textarea>
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop">Back to Top</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
