@@ -1,5 +1,3 @@
-// Mobile Navigation Toggle
-
 const overlay = document.querySelector("#overlay");
 const showMore = document.querySelector("#seeMoreButton");
 const closeButton = document.querySelector("#closeButton");

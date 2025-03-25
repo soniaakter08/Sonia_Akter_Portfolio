@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: sans-serif;
     background-color: whitesmoke;
@@ -29,7 +29,7 @@ header {
 }
 
 header h1 {
-    margin-left: 2em;
+    margin-left: 5em;
     color: #091215;
 }
 
@@ -67,7 +67,7 @@ button{
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    margin-right: 3em;
+    margin-right: 6rem;
 
 }
 
@@ -167,31 +167,10 @@ button:hover {
     margin-left: 9em;
     margin-right: 9em;
     height: 10rem;
-
 }
 .hidden{
     display: none;
 }
-
-/* About Section */
-/*.about {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #9e9797;
-    padding: 3rem;
-}
-
-.about_text {
-    line-height: 2rem;
-    text-align: justify;
-    width: 50%;
-}
-
-.about_img img {
-    max-width: 100%;
-    border-radius: 1rem;
-}*/
 
 /* Projects Section */
 .project_title
@@ -233,9 +212,6 @@ button:hover {
     height: 100%;
 }
 
-
-
-
 /* Skills Section */
 .skills {
     background-color: #403a3a;
@@ -256,47 +232,67 @@ button:hover {
 
 
 /* Contact Section */
-.contact_me {
-    background: #362f2f;
-    color: white;
+footer {
+    background-color: #362f2f;
+    color: #f9f4e6;
+  }
+  footer h2 {
+    color: #f9f4e6;
+    font-family:Arial,sans-serif;
+    margin-left: 2rem;
+  }
+  footer .container {
+    height: 52vh;
+    position: relative;
+  }
+   
+  form {
+    margin-top: 5vh;
+    width: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
     text-align: center;
-    padding: 2rem;
-}
-
-.contact_me form {
-    max-width: 20rem;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.contact_me input, 
-.contact_me textarea {
-    max-width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: none;
+  }
+  label {
+    display: inline-block;
+    width: 200px;
+    text-align: start;
+    vertical-align: top;
+  }
+  input {
+    align-items: start;
+    width: 50vh;
+    height: 4vh;
     border-radius: 5px;
-}
-
-.contact_me button {
+    vertical-align: top;
+  }
+  input[id="message"] {
+    width: 50vh;
+    height: 10vh;
+  }
+   
+  #messageBtn {
     background: #ff714a;
-    width: 80%;
+    width: 40%;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 5px;
-    margin-left: 2em;
+    margin-top: 3px;
+    margin-left: 9rem;
     padding: 10px;
+  }
+  form p {
+    font-size: 0.7rem;
+    margin-left:2rem;
+    color: red;
+    margin-top: 25px;
    
-}
-
-.contact_me button:hover {
-    background: #e6613d;
-}
+  }
+   
 
 /* Back to Top Button */
 #backToTop {
@@ -309,7 +305,8 @@ button:hover {
     padding: 10px 15px;
     color: black;
     cursor: pointer;
-    margin-left: 10rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
    
 }
 
